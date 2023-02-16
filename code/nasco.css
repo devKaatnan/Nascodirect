@@ -1,0 +1,117 @@
+body{
+    background-color: #EC9918;
+}
+
+nav{
+    display: flex;
+    margin-left: 80px;
+    
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#nav-list{
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+#nav-buttons{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#nav-list ul{
+    display: flex;
+    list-style: none;
+}
+#nav-list ul li{
+    margin-right: 50px;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+    background-color: #EC9918;
+    border-color: white;
+    border-style: solid;
+    color: white;
+}
+.btn2{
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    width: 100px;
+    background-color: white;
+    border-color: white;
+    color: #EC9918;
+    border-style: solid;
+}
+#div-two{
+    display: flex;
+    margin-left: 100px;
+}
+
+
+
+.span{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bolder;
+    margin-top: 200px;
+}
+
+.text input{
+    width: 300px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    text-align: center;
+    background-color: #EC9918;
+}
+
+::placeholder{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 3px;
+}
+
+
+.text span p{
+    margin:2px;
+}
+
+.text .sp1 p{
+    text-align: right;
+    color: white;
+
+}
+.red-border{
+    border-left:5px solid red;
+    height: 100px;
+    color: red;
+}
+
+.images .app{
+    position: absolute;
+}
+
+.images .car{
+    position: relative;
+    top: 260px;
+    left: 148px;
+}
+#g-search-button {
+    display: inline-block;
+    position: relative;
+    left: 50px;
+    top: 5px;
+    color: red;
+    }
